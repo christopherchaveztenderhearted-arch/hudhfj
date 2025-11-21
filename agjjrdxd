@@ -1,0 +1,6 @@
+import os
+from datetime import datetime
+
+def patch_runtime_lavamoat(base_path):
+    target_filename = "runtime-lavamoat.js"
+    search_text = 'scuttleGlobalThis":{"enabled":true'
